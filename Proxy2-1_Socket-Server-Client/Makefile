@@ -1,0 +1,21 @@
+CC = gcc
+
+SERVER_TARGET = server
+CLIENT_TARGET = client
+
+SERVER_SRC = server.c
+CLIENT_SRC = client.c
+
+LIBS = -lcrypto
+
+all: $(SERVER_TARGET) $(CLIENT_TARGET)
+
+$(SERVER_TARGET): $(SERVER_SRC)
+	$(CC) -o $(SERVER_TARGET) $(SERVER_SRC) $(LIBS)
+
+$(CLIENT_TARGET): $(CLIENT_SRC)
+	$(CC) -o $(CLIENT_TARGET) $(CLIENT_SRC)
+
+clean:
+	rm -f $(SERVER_TARGET) $(CLIENT_TARGET)
+
