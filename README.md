@@ -9,9 +9,9 @@ Linux 기초 실습부터 시작해, **C로 구현한 Proxy Cache Server**를 9�
 
 ### 🐧 Basic
 
-| 과제  | 내용                                         |                                                         바로가기                                                          |
-| :---: | :------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------------: |
-| Basic | Ubuntu 설치, Linux 명령어 22개, vi, Makefile | [![Basic](https://img.shields.io/badge/Basic-Linux_Commands-555555?style=for-the-badge)](./Basic_Linux-Commands-Makefile) |
+| 과제  | 내용                                         |                                                           바로가기                                                            |
+| :---: | :------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------: |
+| Basic | Ubuntu 설치, Linux 명령어 22개, vi, Makefile | [![Basic](https://img.shields.io/badge/Basic-Linux_Commands-555555?style=for-the-badge)](./Basic_Linux-Commands-Makefile.pdf) |
 
 ### 📁 Phase 1 · 파일 시스템 & 프로세스
 
